@@ -50,7 +50,7 @@ export const equipe = [
   {
     nome: 'Thiago Nogueira',
     especialidade: 'Cortes Modernos e Degradê',
-    foto: 'https://images.unsplash.com/photo-1577909659389-c37f78685b3f?w=400&h=400&fit=crop',
+    foto: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ] as const
 
