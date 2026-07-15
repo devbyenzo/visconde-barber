@@ -1,6 +1,6 @@
 # 💈 Visconde Barber
 
-![Visconde Barber Banner](./public/banner.png)
+![Visconde Barber Banner](./public/banner.jpeg)
 
 <p align="center">
   <strong>Uma experiência premium para uma barbearia moderna.</strong>
