@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-obsidian text-ivory font-body antialiased;
+}
+
+::selection {
+  background: #C6A15B;
+  color: #0B0B0C;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B2314;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C6E37;
+}
+
+.text-outline-gold {
+  -webkit-text-stroke: 1px #C6A15B;
+  color: transparent;
+}
+
+.eyebrow {
+  @apply font-mono text-xs tracking-[0.35em] uppercase text-gold;
+}
+
+.section-title {
+  @apply font-display text-4xl md:text-5xl font-medium text-ivory;
+}
+
+.gold-divider {
+  @apply h-px w-16 bg-gold-line;
+}
+
+.wood-grain {
+  background-image:
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.15) 0px, rgba(0,0,0,0.15) 1px, transparent 1px, transparent 6px);
+}
